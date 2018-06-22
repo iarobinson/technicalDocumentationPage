@@ -1,29 +1,101 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>A Technical Documentation Page to Fulfill Free Code Camp Curriculum by Ian Robinson</title>
+    
+    <!-- Free Code Camp Test Script -->
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+    
+    <!-- BOOTSTRAP CSS AND JS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- END BOOTSTRAP CSS AND JS -->
 
-<head>
-  <meta charset="utf-8">
-  <title>A Technical Documentation Page to Fulfill Free Code Camp Curriculum by Ian Robinson</title>
-  
-  <!-- Free Code Camp Test Script -->
-  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-  
-  <!-- BOOTSTRAP CSS AND JS -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/techDocumentation.css">
+    <style>
+      @media (min-width:768px) {
+        .bd-sidebar {
+          border-right: 1px solid rgba(0,0,0,.1)
+        }
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+        @supports ((position:-webkit-sticky) or (position:sticky)) {
+          .bd-sidebar {
+            position:-webkit-sticky;
+            position:sticky;
+            top:0.2rem;
+            z-index:1000;
+            height:calc(0.2rem)
+          }
+        }
+      }
+    </style>
+  </head>
 
-
-</head>
   <body>
-    <div class="container">
-      <div class="jumbotron">
-        <h1>hello world</h1>
-        <p></p>
+    <div class="container-fluid">
+      <div class="row flex-xl-nowrap">
+        <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
+          <nav id="navbar">
+            <header>
+              <a class="nav-link" href="#one" >one</a>
+              <a class="nav-link" href="#two" >two</a>
+              <a class="nav-link" href="#three" >three</a>
+              <a class="nav-link" href="#four" >four</a>
+              <a class="nav-link" href="#five" >five</a>
+            </header>
+          </nav>
+        </div>
+        <!-- PUT IT HERE -->
+        <main id="main-doc" class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
+          Main Doc Is here!
+          <section id="one" class="main-section">
+            <header>one</header>
+            <p>One - Another paragraph example</p>
+            <code>function getOuttaHere() { return love; }</code>
+            <p>one point five - Another paragraph example</p>
+            <code>function getOuttaHere() { return love; }</code>
+            <p>one point six - Another paragraph example</p>
+          </section>
+          <section id="two" class="main-section">
+            <header>two</header>
+            <p>two - Another paragraph example</p>
+            <code>function getOuttaHere() { return love; }</code>
+            <p>two point five - Another paragraph example</p>
+            <h3>Keeping Going</h3>
+            <ul>
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+              <li>5</li>
+            </ul>
+          </section>
+          <section id="three" class="main-section">
+            <header>three</header>
+            <p>three - Another paragraph example</p>
+            <code>function getOuttaHere() { return love; }</code>
+            <p>three point five - Another paragraph example</p>
+            <code>function getOuttaHere() { return love; }</code>
+            <p>three point six - Another paragraph example</p>
+          </section>
+          <section id="four" class="main-section">
+            <header>four</header>
+            <p>four - Another paragraph example</p>
+          </section>
+          <section id="five" class="main-section">
+            <header>five</header>
+            <p>five - Another paragraph example</p>
+            <p>five point five - Another paragraph example</p>
+            <p>five point six - Another paragraph example</p>
+          </section>
+        </main>
       </div>
     </div>
 
+
+    <!-- JAVASCRIPT READY TO ROCK! -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

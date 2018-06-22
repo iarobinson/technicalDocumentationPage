@@ -1,3 +1,3 @@
 $(document).ready(function () {
-  $("p").html("hello jQuery");
+  // Nothing yet
 });
